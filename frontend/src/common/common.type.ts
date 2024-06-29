@@ -15,7 +15,7 @@ export type BodyProps = {
   };
 };
 
-export type RendererProps = {
+export type SDUIRendererProps = {
   data: UISchema;
 };
 

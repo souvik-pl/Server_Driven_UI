@@ -1,11 +1,11 @@
-import { RendererProps } from "../common/common.type";
+import { SDUIRendererProps } from "../common/common.type";
 import { COMPONENT } from "../common/component.enum";
 import Container from "./components/Container";
 import Image from "./components/Image";
 import Section from "./components/Section";
 import Text from "./components/Text";
 
-function Renderer(props: RendererProps) {
+function SDUIRenderer(props: SDUIRendererProps) {
   const { data } = props;
 
   return (
@@ -18,4 +18,4 @@ function Renderer(props: RendererProps) {
   );
 }
 
-export default Renderer;
+export default SDUIRenderer;
